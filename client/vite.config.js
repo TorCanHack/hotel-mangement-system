@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/TorCanHack/hotel-mangement-system',
+  base: '/hotel-mangement-system',
   plugins: [
     react(),
     tailwindcss()
