@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://github.com/TorCanHack/hotel-mangement-system'>
       <Routes>
         <Route path='/' element={<FrontDesk/>}/>
         <Route path='/rooms' element={<Rooms/>}/>
